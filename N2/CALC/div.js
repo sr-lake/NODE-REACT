@@ -1,6 +1,6 @@
-function div(a,b)
+var div = function(a,b)
 {
-    return a/b;
+return a/b;
 }
 
-console.log(sub(2,4))
+module.exports = div;

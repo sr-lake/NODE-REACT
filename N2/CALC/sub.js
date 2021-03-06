@@ -1,4 +1,6 @@
-function sub(a,b)
+var sub = function(a,b)
 {
-    return a-b;
+return a-b;
 }
+
+module.exports = sub;
