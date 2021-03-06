@@ -1,3 +1,3 @@
-const os = require (os)
-const { freemem, totalmem } = os
-console.log(freemem())
+const nome = "Code-LAGO";
+
+console.log (nome);
