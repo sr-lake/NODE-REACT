@@ -1,5 +1,5 @@
-const nome = require (nome)
+const os = require ('os')
 
-const {freemem, totalmem} = nome
+const {freemem, totalmem} = os
 
 console.log (freemem(), totalmem());
