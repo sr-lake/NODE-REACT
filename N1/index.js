@@ -1,3 +1,3 @@
-const nome = "Code-LAGO";
+const nome = ("Code Lago");
 
 console.log (nome);
