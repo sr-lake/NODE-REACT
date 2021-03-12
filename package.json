@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/sr-lake/NODE-REACT/issues"
   },
-  "homepage": "https://github.com/sr-lake/NODE-REACT#readme"
+  "homepage": "https://github.com/sr-lake/NODE-REACT#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
 }
