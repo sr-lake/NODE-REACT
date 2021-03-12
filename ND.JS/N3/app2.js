@@ -19,5 +19,5 @@ app.get("/sobre", function(req, res){res.send ("Minha Pagina Sobre...")});
 app.get("/blog", function(req, res){res.send ("Seja Bem-Vindo ao Meu Bolg!.")});
 
 app.listen(8082, function(){
-                                   console.log("Servidor Ativo na Url http://localhost:8082");
+                                   console.log("Servidor Ativo na Url http://localhost:808");
                                           });
