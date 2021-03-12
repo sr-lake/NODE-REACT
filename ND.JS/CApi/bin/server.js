@@ -1,9 +1,7 @@
+const app = require('../src/app')
 const http = require ('http') ;
 const  debug  =  require ('debug') ('capi:server') ;
-const   express =  require ('express') ;
-const { ifError } = require('assert');
 
-const app = express();
 const port = normalizePort(process.env.PORT || '3000');
 app.set('port', port);
 
