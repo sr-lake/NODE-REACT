@@ -1,0 +1,54 @@
+{
+	"name": "ntpy",
+	"version": "1.0.0",
+	"description": "NTP client for Node.js.",
+	"repository": "https://github.com/Richienb/ntpy.git",
+	"author": "Richie Bendall <richiebendall@gmail.com>",
+	"license": "MIT",
+	"main": "index.js",
+	"files": [
+		"index.js",
+		"index.d.ts"
+	],
+	"engines": {
+		"node": ">=10"
+	},
+	"scripts": {
+		"lint": "xo",
+		"test": "yarn lint && ava"
+	},
+	"keywords": [
+		"ntp",
+		"network",
+		"time",
+		"protocol",
+		"server",
+		"get",
+		"secure",
+		"port",
+		"web",
+		"online",
+		"date",
+		"second",
+		"minute",
+		"unix",
+		"utc"
+	],
+	"dependencies": {
+		"@sindresorhus/is": "^2.1.0",
+		"ntp-packet-parser": "^0.1.0",
+		"p-event": "^4.1.0",
+		"p-timeout": "^3.2.0"
+	},
+	"devDependencies": {
+		"ava": "^3.5.1",
+		"eslint-config-richienb": "^0.4.2",
+		"xo": "^0.28.1"
+	},
+	"resolutions": {
+		"eslint": "^6.8.0"
+	},
+	"xo": {
+		"extends": "richienb"
+	}
+}
