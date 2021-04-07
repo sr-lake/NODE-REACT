@@ -48,3 +48,4 @@ Type: `number | false`\
 Default: `10000`
 
 The timeout in milliseconds for the request to complete. Set to `false` to disable.
+## LAKE 0.1
