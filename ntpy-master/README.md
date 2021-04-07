@@ -1,6 +1,6 @@
 # ntpy [![Travis CI Build Status](https://img.shields.io/travis/com/Richienb/ntpy/master.svg?style=for-the-badge)](https://travis-ci.com/Richienb/ntpy)
 
-NTP client for Node.js.
+NTP client for Node.js.3.1
 
 [![NPM Badge](https://nodei.co/npm/ntpy.png)](https://npmjs.com/package/ntpy)
 
@@ -16,8 +16,8 @@ npm install ntpy
 const ntpy = require("ntpy");
 
 (async () => {
-	const { receiveTimestamp } = await ntpy("pool.ntp.org");
-	console.log("The date is: ", receiveTimestamp);
+ const { receiveTimestamp } = await ntpy("pool.ntp.org");
+ console.log("The date is: ", receiveTimestamp);
 })();
 ```
 
