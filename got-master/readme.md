@@ -30,7 +30,7 @@
 	<br>
 </div>
 
-> Human-friendly and powerful HTTP request library for Node.js3
+> Human-friendly and powerful HTTP request library for Node.js
 
 [![Coverage Status](https://codecov.io/gh/sindresorhus/got/branch/main/graph/badge.svg)](https://codecov.io/gh/sindresorhus/got/branch/main)
 [![Downloads](https://img.shields.io/npm/dm/got.svg)](https://npmjs.com/got)
